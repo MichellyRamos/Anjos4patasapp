@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#EDF0F1</color>
+
+    <color name="cinza">#D96248</color>
+    <color name="cordoapp">#FFFFFF</color>
+
+</resources>

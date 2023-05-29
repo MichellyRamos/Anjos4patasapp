@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela_perfil"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cinza"
+        android:text="@string/adote_um_anjo"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:contentDescription="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:contentDescription="text">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="336dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/dog1"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Romeu é um anjo de 5 meses raça não definida, que foi abandonado nas ruas e está aprocura de um lar e muito amor."
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="347dp"
+                android:layout_height="265dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/dog2"
+                tools:layout_editor_absoluteY="505dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Floquinho é um anjo de 6 meses, foi abandonado nas ruas e está aprocura de um lar e muito amor."
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="438dp"
+                android:layout_height="329dp"
+                app:srcCompat="@drawable/dog3"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="759dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cleitinho é um anjo salsicha  de 4 meses, foi abandonado nas ruas e atropelado e está aprocura de um lar e muito amor."
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="389dp"
+                android:layout_height="301dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/dog4"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chocolate é um anjo  de 3 meses, foi abandonado na estrada e está aprocura de um lar e muito amor."
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="477dp"
+                android:layout_height="386dp"
+                app:srcCompat="@drawable/dog9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mario e Maria foram resgatados, são anjos que sofreram maus-tratos por seus antigos tutores e estão à procura de um lar e muito amor."
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/dog6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bob é um anjo de 5 anos, foi resgatado porque sofria maus-tratos por seu antigo dono e está à procura de um lar e muito amor."
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
